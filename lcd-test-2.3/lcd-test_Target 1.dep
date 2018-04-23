@@ -1,0 +1,414 @@
+Dependencies for Project 'lcd-test', Target 'Target 1': (DO NOT MODIFY !)
+F (.\startup_M051Series.s)(0x5A67E396)(--cpu Cortex-M0 -g --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Nuvoton\M051Series--list .\startup_m051series.lst --xref -o .\startup_m051series.o --depend .\startup_m051series.d)
+F (.\CMSIS\system_M051Series.c)(0x5A5C60CC)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork -I.\CMSIS -I.\CMSIS\Include -I.\Lib\inc -I.\User-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Nuvoton\M051Series-DDEBUG_ENABLE_SEMIHOST="1"-o .\system_m051series.o --omf_browse .\system_m051series.crf --depend .\system_m051series.d)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (CMSIS\M051Series.h)(0x55C8476C)
+I (.\CMSIS\Include\core_cm0.h)(0x55C8476C)
+I (.\CMSIS\Include\core_cmInstr.h)(0x55C8476C)
+I (.\CMSIS\Include\core_cmFunc.h)(0x55C8476C)
+I (CMSIS\system_M051Series.h)(0x55C8476C)
+I (.\Lib\inc\sys.h)(0x55C8476C)
+I (.\Lib\inc\clk.h)(0x55C8476C)
+I (.\Lib\inc\adc.h)(0x55C8476C)
+I (.\Lib\inc\ebi.h)(0x55C8476C)
+I (.\Lib\inc\fmc.h)(0x55C8476C)
+I (.\CMSIS\M051Series.h)(0x55C8476C)
+I (.\Lib\inc\gpio.h)(0x55C8476C)
+I (.\Lib\inc\i2c.h)(0x55C8476C)
+I (.\Lib\inc\pwm.h)(0x55C8476C)
+I (.\Lib\inc\spi.h)(0x55C8476C)
+I (.\Lib\inc\timer.h)(0x55C8476C)
+I (.\Lib\inc\wdt.h)(0x55C8476C)
+I (.\Lib\inc\wwdt.h)(0x55C8476C)
+I (.\Lib\inc\uart.h)(0x55C8476C)
+I (.\Lib\inc\hdiv.h)(0x55C8476C)
+I (.\Lib\inc\acmp.h)(0x55C8476C)
+F (.\User\delay.c)(0x5AD95957)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork -I.\CMSIS -I.\CMSIS\Include -I.\Lib\inc -I.\User-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Nuvoton\M051Series-DDEBUG_ENABLE_SEMIHOST="1"-o .\delay.o --omf_browse .\delay.crf --depend .\delay.d)
+I (.\User\delay.h)(0x5A69A719)
+I (.\CMSIS\M051Series.h)(0x55C8476C)
+I (.\CMSIS\Include\core_cm0.h)(0x55C8476C)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (.\CMSIS\Include\core_cmInstr.h)(0x55C8476C)
+I (.\CMSIS\Include\core_cmFunc.h)(0x55C8476C)
+I (.\CMSIS\system_M051Series.h)(0x55C8476C)
+I (.\Lib\inc\sys.h)(0x55C8476C)
+I (.\Lib\inc\clk.h)(0x55C8476C)
+I (.\Lib\inc\adc.h)(0x55C8476C)
+I (.\Lib\inc\ebi.h)(0x55C8476C)
+I (.\Lib\inc\fmc.h)(0x55C8476C)
+I (.\Lib\inc\gpio.h)(0x55C8476C)
+I (.\Lib\inc\i2c.h)(0x55C8476C)
+I (.\Lib\inc\pwm.h)(0x55C8476C)
+I (.\Lib\inc\spi.h)(0x55C8476C)
+I (.\Lib\inc\timer.h)(0x55C8476C)
+I (.\Lib\inc\wdt.h)(0x55C8476C)
+I (.\Lib\inc\wwdt.h)(0x55C8476C)
+I (.\Lib\inc\uart.h)(0x55C8476C)
+I (.\Lib\inc\hdiv.h)(0x55C8476C)
+I (.\Lib\inc\acmp.h)(0x55C8476C)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7C554)
+F (.\User\Lcd_Driver.c)(0x5AAA2E0D)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork -I.\CMSIS -I.\CMSIS\Include -I.\Lib\inc -I.\User-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Nuvoton\M051Series-DDEBUG_ENABLE_SEMIHOST="1"-o .\lcd_driver.o --omf_browse .\lcd_driver.crf --depend .\lcd_driver.d)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7C554)
+I (.\CMSIS\M051Series.h)(0x55C8476C)
+I (.\CMSIS\Include\core_cm0.h)(0x55C8476C)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (.\CMSIS\Include\core_cmInstr.h)(0x55C8476C)
+I (.\CMSIS\Include\core_cmFunc.h)(0x55C8476C)
+I (.\CMSIS\system_M051Series.h)(0x55C8476C)
+I (.\Lib\inc\sys.h)(0x55C8476C)
+I (.\Lib\inc\clk.h)(0x55C8476C)
+I (.\Lib\inc\adc.h)(0x55C8476C)
+I (.\Lib\inc\ebi.h)(0x55C8476C)
+I (.\Lib\inc\fmc.h)(0x55C8476C)
+I (.\Lib\inc\gpio.h)(0x55C8476C)
+I (.\Lib\inc\i2c.h)(0x55C8476C)
+I (.\Lib\inc\pwm.h)(0x55C8476C)
+I (.\Lib\inc\spi.h)(0x55C8476C)
+I (.\Lib\inc\timer.h)(0x55C8476C)
+I (.\Lib\inc\wdt.h)(0x55C8476C)
+I (.\Lib\inc\wwdt.h)(0x55C8476C)
+I (.\Lib\inc\uart.h)(0x55C8476C)
+I (.\Lib\inc\hdiv.h)(0x55C8476C)
+I (.\Lib\inc\acmp.h)(0x55C8476C)
+I (.\User\Lcd_Driver.h)(0x5A791A0A)
+I (.\User\delay.h)(0x5A69A719)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C7C554)
+F (.\User\main.c)(0x5AD9579F)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork -I.\CMSIS -I.\CMSIS\Include -I.\Lib\inc -I.\User-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Nuvoton\M051Series-DDEBUG_ENABLE_SEMIHOST="1"-o .\main.o --omf_browse .\main.crf --depend .\main.d)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7C554)
+I (.\CMSIS\M051Series.h)(0x55C8476C)
+I (.\CMSIS\Include\core_cm0.h)(0x55C8476C)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (.\CMSIS\Include\core_cmInstr.h)(0x55C8476C)
+I (.\CMSIS\Include\core_cmFunc.h)(0x55C8476C)
+I (.\CMSIS\system_M051Series.h)(0x55C8476C)
+I (.\Lib\inc\sys.h)(0x55C8476C)
+I (.\Lib\inc\clk.h)(0x55C8476C)
+I (.\Lib\inc\adc.h)(0x55C8476C)
+I (.\Lib\inc\ebi.h)(0x55C8476C)
+I (.\Lib\inc\fmc.h)(0x55C8476C)
+I (.\Lib\inc\gpio.h)(0x55C8476C)
+I (.\Lib\inc\i2c.h)(0x55C8476C)
+I (.\Lib\inc\pwm.h)(0x55C8476C)
+I (.\Lib\inc\spi.h)(0x55C8476C)
+I (.\Lib\inc\timer.h)(0x55C8476C)
+I (.\Lib\inc\wdt.h)(0x55C8476C)
+I (.\Lib\inc\wwdt.h)(0x55C8476C)
+I (.\Lib\inc\uart.h)(0x55C8476C)
+I (.\Lib\inc\hdiv.h)(0x55C8476C)
+I (.\Lib\inc\acmp.h)(0x55C8476C)
+I (.\User\Lcd_Driver.h)(0x5A791A0A)
+I (.\User\delay.h)(0x5A69A719)
+I (.\User\GUI.h)(0x5AC46D5B)
+I (.\User\demo.h)(0x5ABE1204)
+I (.\User\DS18B20.h)(0x5A6A908C)
+I (.\User\DS1390.h)(0x5AD95918)
+I (.\User\Relay.h)(0x5A77D1F5)
+F (.\User\GUI.c)(0x5AC33031)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork -I.\CMSIS -I.\CMSIS\Include -I.\Lib\inc -I.\User-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Nuvoton\M051Series-DDEBUG_ENABLE_SEMIHOST="1"-o .\gui.o --omf_browse .\gui.crf --depend .\gui.d)
+I (.\User\GUI.h)(0x5AC46D5B)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7C554)
+I (.\CMSIS\M051Series.h)(0x55C8476C)
+I (.\CMSIS\Include\core_cm0.h)(0x55C8476C)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (.\CMSIS\Include\core_cmInstr.h)(0x55C8476C)
+I (.\CMSIS\Include\core_cmFunc.h)(0x55C8476C)
+I (.\CMSIS\system_M051Series.h)(0x55C8476C)
+I (.\Lib\inc\sys.h)(0x55C8476C)
+I (.\Lib\inc\clk.h)(0x55C8476C)
+I (.\Lib\inc\adc.h)(0x55C8476C)
+I (.\Lib\inc\ebi.h)(0x55C8476C)
+I (.\Lib\inc\fmc.h)(0x55C8476C)
+I (.\Lib\inc\gpio.h)(0x55C8476C)
+I (.\Lib\inc\i2c.h)(0x55C8476C)
+I (.\Lib\inc\pwm.h)(0x55C8476C)
+I (.\Lib\inc\spi.h)(0x55C8476C)
+I (.\Lib\inc\timer.h)(0x55C8476C)
+I (.\Lib\inc\wdt.h)(0x55C8476C)
+I (.\Lib\inc\wwdt.h)(0x55C8476C)
+I (.\Lib\inc\uart.h)(0x55C8476C)
+I (.\Lib\inc\hdiv.h)(0x55C8476C)
+I (.\Lib\inc\acmp.h)(0x55C8476C)
+I (.\User\Lcd_Driver.h)(0x5A791A0A)
+I (.\User\font.h)(0x5AC46D8E)
+F (.\User\demo.c)(0x5AD95A0F)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork -I.\CMSIS -I.\CMSIS\Include -I.\Lib\inc -I.\User-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Nuvoton\M051Series-DDEBUG_ENABLE_SEMIHOST="1"-o .\demo.o --omf_browse .\demo.crf --depend .\demo.d)
+I (.\User\GUI.h)(0x5AC46D5B)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7C554)
+I (.\CMSIS\M051Series.h)(0x55C8476C)
+I (.\CMSIS\Include\core_cm0.h)(0x55C8476C)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (.\CMSIS\Include\core_cmInstr.h)(0x55C8476C)
+I (.\CMSIS\Include\core_cmFunc.h)(0x55C8476C)
+I (.\CMSIS\system_M051Series.h)(0x55C8476C)
+I (.\Lib\inc\sys.h)(0x55C8476C)
+I (.\Lib\inc\clk.h)(0x55C8476C)
+I (.\Lib\inc\adc.h)(0x55C8476C)
+I (.\Lib\inc\ebi.h)(0x55C8476C)
+I (.\Lib\inc\fmc.h)(0x55C8476C)
+I (.\Lib\inc\gpio.h)(0x55C8476C)
+I (.\Lib\inc\i2c.h)(0x55C8476C)
+I (.\Lib\inc\pwm.h)(0x55C8476C)
+I (.\Lib\inc\spi.h)(0x55C8476C)
+I (.\Lib\inc\timer.h)(0x55C8476C)
+I (.\Lib\inc\wdt.h)(0x55C8476C)
+I (.\Lib\inc\wwdt.h)(0x55C8476C)
+I (.\Lib\inc\uart.h)(0x55C8476C)
+I (.\Lib\inc\hdiv.h)(0x55C8476C)
+I (.\Lib\inc\acmp.h)(0x55C8476C)
+I (.\User\Lcd_Driver.h)(0x5A791A0A)
+I (.\User\delay.h)(0x5A69A719)
+I (.\User\demo.h)(0x5ABE1204)
+I (.\User\DS18B20.h)(0x5A6A908C)
+F (.\User\DS18B20.c)(0x5A6AEAB9)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork -I.\CMSIS -I.\CMSIS\Include -I.\Lib\inc -I.\User-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Nuvoton\M051Series-DDEBUG_ENABLE_SEMIHOST="1"-o .\ds18b20.o --omf_browse .\ds18b20.crf --depend .\ds18b20.d)
+I (.\User\DS18B20.h)(0x5A6A908C)
+I (.\User\delay.h)(0x5A69A719)
+I (.\CMSIS\M051Series.h)(0x55C8476C)
+I (.\CMSIS\Include\core_cm0.h)(0x55C8476C)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (.\CMSIS\Include\core_cmInstr.h)(0x55C8476C)
+I (.\CMSIS\Include\core_cmFunc.h)(0x55C8476C)
+I (.\CMSIS\system_M051Series.h)(0x55C8476C)
+I (.\Lib\inc\sys.h)(0x55C8476C)
+I (.\Lib\inc\clk.h)(0x55C8476C)
+I (.\Lib\inc\adc.h)(0x55C8476C)
+I (.\Lib\inc\ebi.h)(0x55C8476C)
+I (.\Lib\inc\fmc.h)(0x55C8476C)
+I (.\Lib\inc\gpio.h)(0x55C8476C)
+I (.\Lib\inc\i2c.h)(0x55C8476C)
+I (.\Lib\inc\pwm.h)(0x55C8476C)
+I (.\Lib\inc\spi.h)(0x55C8476C)
+I (.\Lib\inc\timer.h)(0x55C8476C)
+I (.\Lib\inc\wdt.h)(0x55C8476C)
+I (.\Lib\inc\wwdt.h)(0x55C8476C)
+I (.\Lib\inc\uart.h)(0x55C8476C)
+I (.\Lib\inc\hdiv.h)(0x55C8476C)
+I (.\Lib\inc\acmp.h)(0x55C8476C)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7C554)
+F (.\User\DS1390.c)(0x5AD959D1)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork -I.\CMSIS -I.\CMSIS\Include -I.\Lib\inc -I.\User-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Nuvoton\M051Series-DDEBUG_ENABLE_SEMIHOST="1"-o .\ds1390.o --omf_browse .\ds1390.crf --depend .\ds1390.d)
+I (.\User\DS1390.h)(0x5AD95918)
+I (.\User\delay.h)(0x5A69A719)
+I (.\CMSIS\M051Series.h)(0x55C8476C)
+I (.\CMSIS\Include\core_cm0.h)(0x55C8476C)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (.\CMSIS\Include\core_cmInstr.h)(0x55C8476C)
+I (.\CMSIS\Include\core_cmFunc.h)(0x55C8476C)
+I (.\CMSIS\system_M051Series.h)(0x55C8476C)
+I (.\Lib\inc\sys.h)(0x55C8476C)
+I (.\Lib\inc\clk.h)(0x55C8476C)
+I (.\Lib\inc\adc.h)(0x55C8476C)
+I (.\Lib\inc\ebi.h)(0x55C8476C)
+I (.\Lib\inc\fmc.h)(0x55C8476C)
+I (.\Lib\inc\gpio.h)(0x55C8476C)
+I (.\Lib\inc\i2c.h)(0x55C8476C)
+I (.\Lib\inc\pwm.h)(0x55C8476C)
+I (.\Lib\inc\spi.h)(0x55C8476C)
+I (.\Lib\inc\timer.h)(0x55C8476C)
+I (.\Lib\inc\wdt.h)(0x55C8476C)
+I (.\Lib\inc\wwdt.h)(0x55C8476C)
+I (.\Lib\inc\uart.h)(0x55C8476C)
+I (.\Lib\inc\hdiv.h)(0x55C8476C)
+I (.\Lib\inc\acmp.h)(0x55C8476C)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7C554)
+F (.\User\Relay.c)(0x5AA77A5F)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork -I.\CMSIS -I.\CMSIS\Include -I.\Lib\inc -I.\User-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Nuvoton\M051Series-DDEBUG_ENABLE_SEMIHOST="1"-o .\relay.o --omf_browse .\relay.crf --depend .\relay.d)
+I (.\User\Relay.h)(0x5A77D1F5)
+I (.\User\delay.h)(0x5A69A719)
+I (.\CMSIS\M051Series.h)(0x55C8476C)
+I (.\CMSIS\Include\core_cm0.h)(0x55C8476C)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (.\CMSIS\Include\core_cmInstr.h)(0x55C8476C)
+I (.\CMSIS\Include\core_cmFunc.h)(0x55C8476C)
+I (.\CMSIS\system_M051Series.h)(0x55C8476C)
+I (.\Lib\inc\sys.h)(0x55C8476C)
+I (.\Lib\inc\clk.h)(0x55C8476C)
+I (.\Lib\inc\adc.h)(0x55C8476C)
+I (.\Lib\inc\ebi.h)(0x55C8476C)
+I (.\Lib\inc\fmc.h)(0x55C8476C)
+I (.\Lib\inc\gpio.h)(0x55C8476C)
+I (.\Lib\inc\i2c.h)(0x55C8476C)
+I (.\Lib\inc\pwm.h)(0x55C8476C)
+I (.\Lib\inc\spi.h)(0x55C8476C)
+I (.\Lib\inc\timer.h)(0x55C8476C)
+I (.\Lib\inc\wdt.h)(0x55C8476C)
+I (.\Lib\inc\wwdt.h)(0x55C8476C)
+I (.\Lib\inc\uart.h)(0x55C8476C)
+I (.\Lib\inc\hdiv.h)(0x55C8476C)
+I (.\Lib\inc\acmp.h)(0x55C8476C)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7C554)
+F (.\Lib\src\clk.c)(0x55C8476C)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork -I.\CMSIS -I.\CMSIS\Include -I.\Lib\inc -I.\User-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Nuvoton\M051Series-DDEBUG_ENABLE_SEMIHOST="1"-o .\clk.o --omf_browse .\clk.crf --depend .\clk.d)
+I (.\CMSIS\M051Series.h)(0x55C8476C)
+I (.\CMSIS\Include\core_cm0.h)(0x55C8476C)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (.\CMSIS\Include\core_cmInstr.h)(0x55C8476C)
+I (.\CMSIS\Include\core_cmFunc.h)(0x55C8476C)
+I (.\CMSIS\system_M051Series.h)(0x55C8476C)
+I (.\Lib\inc\sys.h)(0x55C8476C)
+I (.\Lib\inc\clk.h)(0x55C8476C)
+I (.\Lib\inc\adc.h)(0x55C8476C)
+I (.\Lib\inc\ebi.h)(0x55C8476C)
+I (.\Lib\inc\fmc.h)(0x55C8476C)
+I (.\Lib\inc\gpio.h)(0x55C8476C)
+I (.\Lib\inc\i2c.h)(0x55C8476C)
+I (.\Lib\inc\pwm.h)(0x55C8476C)
+I (.\Lib\inc\spi.h)(0x55C8476C)
+I (.\Lib\inc\timer.h)(0x55C8476C)
+I (.\Lib\inc\wdt.h)(0x55C8476C)
+I (.\Lib\inc\wwdt.h)(0x55C8476C)
+I (.\Lib\inc\uart.h)(0x55C8476C)
+I (.\Lib\inc\hdiv.h)(0x55C8476C)
+I (.\Lib\inc\acmp.h)(0x55C8476C)
+F (.\Lib\src\gpio.c)(0x55C8476C)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork -I.\CMSIS -I.\CMSIS\Include -I.\Lib\inc -I.\User-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Nuvoton\M051Series-DDEBUG_ENABLE_SEMIHOST="1"-o .\gpio.o --omf_browse .\gpio.crf --depend .\gpio.d)
+I (.\CMSIS\M051Series.h)(0x55C8476C)
+I (.\CMSIS\Include\core_cm0.h)(0x55C8476C)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (.\CMSIS\Include\core_cmInstr.h)(0x55C8476C)
+I (.\CMSIS\Include\core_cmFunc.h)(0x55C8476C)
+I (.\CMSIS\system_M051Series.h)(0x55C8476C)
+I (.\Lib\inc\sys.h)(0x55C8476C)
+I (.\Lib\inc\clk.h)(0x55C8476C)
+I (.\Lib\inc\adc.h)(0x55C8476C)
+I (.\Lib\inc\ebi.h)(0x55C8476C)
+I (.\Lib\inc\fmc.h)(0x55C8476C)
+I (.\Lib\inc\gpio.h)(0x55C8476C)
+I (.\Lib\inc\i2c.h)(0x55C8476C)
+I (.\Lib\inc\pwm.h)(0x55C8476C)
+I (.\Lib\inc\spi.h)(0x55C8476C)
+I (.\Lib\inc\timer.h)(0x55C8476C)
+I (.\Lib\inc\wdt.h)(0x55C8476C)
+I (.\Lib\inc\wwdt.h)(0x55C8476C)
+I (.\Lib\inc\uart.h)(0x55C8476C)
+I (.\Lib\inc\hdiv.h)(0x55C8476C)
+I (.\Lib\inc\acmp.h)(0x55C8476C)
+F (.\Lib\src\retarget.c)(0x5AA772CC)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork -I.\CMSIS -I.\CMSIS\Include -I.\Lib\inc -I.\User-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Nuvoton\M051Series-DDEBUG_ENABLE_SEMIHOST="1"-o .\retarget.o --omf_browse .\retarget.crf --depend .\retarget.d)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7C554)
+I (.\CMSIS\M051Series.h)(0x55C8476C)
+I (.\CMSIS\Include\core_cm0.h)(0x55C8476C)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (.\CMSIS\Include\core_cmInstr.h)(0x55C8476C)
+I (.\CMSIS\Include\core_cmFunc.h)(0x55C8476C)
+I (.\CMSIS\system_M051Series.h)(0x55C8476C)
+I (.\Lib\inc\sys.h)(0x55C8476C)
+I (.\Lib\inc\clk.h)(0x55C8476C)
+I (.\Lib\inc\adc.h)(0x55C8476C)
+I (.\Lib\inc\ebi.h)(0x55C8476C)
+I (.\Lib\inc\fmc.h)(0x55C8476C)
+I (.\Lib\inc\gpio.h)(0x55C8476C)
+I (.\Lib\inc\i2c.h)(0x55C8476C)
+I (.\Lib\inc\pwm.h)(0x55C8476C)
+I (.\Lib\inc\spi.h)(0x55C8476C)
+I (.\Lib\inc\timer.h)(0x55C8476C)
+I (.\Lib\inc\wdt.h)(0x55C8476C)
+I (.\Lib\inc\wwdt.h)(0x55C8476C)
+I (.\Lib\inc\uart.h)(0x55C8476C)
+I (.\Lib\inc\hdiv.h)(0x55C8476C)
+I (.\Lib\inc\acmp.h)(0x55C8476C)
+F (.\Lib\src\sys.c)(0x55C8476C)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork -I.\CMSIS -I.\CMSIS\Include -I.\Lib\inc -I.\User-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Nuvoton\M051Series-DDEBUG_ENABLE_SEMIHOST="1"-o .\sys.o --omf_browse .\sys.crf --depend .\sys.d)
+I (.\CMSIS\M051Series.h)(0x55C8476C)
+I (.\CMSIS\Include\core_cm0.h)(0x55C8476C)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (.\CMSIS\Include\core_cmInstr.h)(0x55C8476C)
+I (.\CMSIS\Include\core_cmFunc.h)(0x55C8476C)
+I (.\CMSIS\system_M051Series.h)(0x55C8476C)
+I (.\Lib\inc\sys.h)(0x55C8476C)
+I (.\Lib\inc\clk.h)(0x55C8476C)
+I (.\Lib\inc\adc.h)(0x55C8476C)
+I (.\Lib\inc\ebi.h)(0x55C8476C)
+I (.\Lib\inc\fmc.h)(0x55C8476C)
+I (.\Lib\inc\gpio.h)(0x55C8476C)
+I (.\Lib\inc\i2c.h)(0x55C8476C)
+I (.\Lib\inc\pwm.h)(0x55C8476C)
+I (.\Lib\inc\spi.h)(0x55C8476C)
+I (.\Lib\inc\timer.h)(0x55C8476C)
+I (.\Lib\inc\wdt.h)(0x55C8476C)
+I (.\Lib\inc\wwdt.h)(0x55C8476C)
+I (.\Lib\inc\uart.h)(0x55C8476C)
+I (.\Lib\inc\hdiv.h)(0x55C8476C)
+I (.\Lib\inc\acmp.h)(0x55C8476C)
+F (.\Lib\src\uart.c)(0x55C8476C)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork -I.\CMSIS -I.\CMSIS\Include -I.\Lib\inc -I.\User-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Nuvoton\M051Series-DDEBUG_ENABLE_SEMIHOST="1"-o .\uart.o --omf_browse .\uart.crf --depend .\uart.d)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7C554)
+I (.\CMSIS\M051Series.h)(0x55C8476C)
+I (.\CMSIS\Include\core_cm0.h)(0x55C8476C)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (.\CMSIS\Include\core_cmInstr.h)(0x55C8476C)
+I (.\CMSIS\Include\core_cmFunc.h)(0x55C8476C)
+I (.\CMSIS\system_M051Series.h)(0x55C8476C)
+I (.\Lib\inc\sys.h)(0x55C8476C)
+I (.\Lib\inc\clk.h)(0x55C8476C)
+I (.\Lib\inc\adc.h)(0x55C8476C)
+I (.\Lib\inc\ebi.h)(0x55C8476C)
+I (.\Lib\inc\fmc.h)(0x55C8476C)
+I (.\Lib\inc\gpio.h)(0x55C8476C)
+I (.\Lib\inc\i2c.h)(0x55C8476C)
+I (.\Lib\inc\pwm.h)(0x55C8476C)
+I (.\Lib\inc\spi.h)(0x55C8476C)
+I (.\Lib\inc\timer.h)(0x55C8476C)
+I (.\Lib\inc\wdt.h)(0x55C8476C)
+I (.\Lib\inc\wwdt.h)(0x55C8476C)
+I (.\Lib\inc\uart.h)(0x55C8476C)
+I (.\Lib\inc\hdiv.h)(0x55C8476C)
+I (.\Lib\inc\acmp.h)(0x55C8476C)
+F (.\Lib\src\spi.c)(0x55C8476C)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork -I.\CMSIS -I.\CMSIS\Include -I.\Lib\inc -I.\User-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Nuvoton\M051Series-DDEBUG_ENABLE_SEMIHOST="1"-o .\spi.o --omf_browse .\spi.crf --depend .\spi.d)
+I (.\CMSIS\M051Series.h)(0x55C8476C)
+I (.\CMSIS\Include\core_cm0.h)(0x55C8476C)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (.\CMSIS\Include\core_cmInstr.h)(0x55C8476C)
+I (.\CMSIS\Include\core_cmFunc.h)(0x55C8476C)
+I (.\CMSIS\system_M051Series.h)(0x55C8476C)
+I (.\Lib\inc\sys.h)(0x55C8476C)
+I (.\Lib\inc\clk.h)(0x55C8476C)
+I (.\Lib\inc\adc.h)(0x55C8476C)
+I (.\Lib\inc\ebi.h)(0x55C8476C)
+I (.\Lib\inc\fmc.h)(0x55C8476C)
+I (.\Lib\inc\gpio.h)(0x55C8476C)
+I (.\Lib\inc\i2c.h)(0x55C8476C)
+I (.\Lib\inc\pwm.h)(0x55C8476C)
+I (.\Lib\inc\spi.h)(0x55C8476C)
+I (.\Lib\inc\timer.h)(0x55C8476C)
+I (.\Lib\inc\wdt.h)(0x55C8476C)
+I (.\Lib\inc\wwdt.h)(0x55C8476C)
+I (.\Lib\inc\uart.h)(0x55C8476C)
+I (.\Lib\inc\hdiv.h)(0x55C8476C)
+I (.\Lib\inc\acmp.h)(0x55C8476C)
+F (.\Lib\src\timer.c)(0x55C8476C)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork -I.\CMSIS -I.\CMSIS\Include -I.\Lib\inc -I.\User-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Nuvoton\M051Series-DDEBUG_ENABLE_SEMIHOST="1"-o .\timer.o --omf_browse .\timer.crf --depend .\timer.d)
+I (.\CMSIS\M051Series.h)(0x55C8476C)
+I (.\CMSIS\Include\core_cm0.h)(0x55C8476C)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (.\CMSIS\Include\core_cmInstr.h)(0x55C8476C)
+I (.\CMSIS\Include\core_cmFunc.h)(0x55C8476C)
+I (.\CMSIS\system_M051Series.h)(0x55C8476C)
+I (.\Lib\inc\sys.h)(0x55C8476C)
+I (.\Lib\inc\clk.h)(0x55C8476C)
+I (.\Lib\inc\adc.h)(0x55C8476C)
+I (.\Lib\inc\ebi.h)(0x55C8476C)
+I (.\Lib\inc\fmc.h)(0x55C8476C)
+I (.\Lib\inc\gpio.h)(0x55C8476C)
+I (.\Lib\inc\i2c.h)(0x55C8476C)
+I (.\Lib\inc\pwm.h)(0x55C8476C)
+I (.\Lib\inc\spi.h)(0x55C8476C)
+I (.\Lib\inc\timer.h)(0x55C8476C)
+I (.\Lib\inc\wdt.h)(0x55C8476C)
+I (.\Lib\inc\wwdt.h)(0x55C8476C)
+I (.\Lib\inc\uart.h)(0x55C8476C)
+I (.\Lib\inc\hdiv.h)(0x55C8476C)
+I (.\Lib\inc\acmp.h)(0x55C8476C)
+F (.\Lib\src\fmc.c)(0x55C8476C)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork -I.\CMSIS -I.\CMSIS\Include -I.\Lib\inc -I.\User-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Nuvoton\M051Series-DDEBUG_ENABLE_SEMIHOST="1"-o .\fmc.o --omf_browse .\fmc.crf --depend .\fmc.d)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7C554)
+I (.\CMSIS\M051Series.h)(0x55C8476C)
+I (.\CMSIS\Include\core_cm0.h)(0x55C8476C)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (.\CMSIS\Include\core_cmInstr.h)(0x55C8476C)
+I (.\CMSIS\Include\core_cmFunc.h)(0x55C8476C)
+I (.\CMSIS\system_M051Series.h)(0x55C8476C)
+I (.\Lib\inc\sys.h)(0x55C8476C)
+I (.\Lib\inc\clk.h)(0x55C8476C)
+I (.\Lib\inc\adc.h)(0x55C8476C)
+I (.\Lib\inc\ebi.h)(0x55C8476C)
+I (.\Lib\inc\fmc.h)(0x55C8476C)
+I (.\Lib\inc\gpio.h)(0x55C8476C)
+I (.\Lib\inc\i2c.h)(0x55C8476C)
+I (.\Lib\inc\pwm.h)(0x55C8476C)
+I (.\Lib\inc\spi.h)(0x55C8476C)
+I (.\Lib\inc\timer.h)(0x55C8476C)
+I (.\Lib\inc\wdt.h)(0x55C8476C)
+I (.\Lib\inc\wwdt.h)(0x55C8476C)
+I (.\Lib\inc\uart.h)(0x55C8476C)
+I (.\Lib\inc\hdiv.h)(0x55C8476C)
+I (.\Lib\inc\acmp.h)(0x55C8476C)
